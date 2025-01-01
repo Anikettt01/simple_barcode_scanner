@@ -22,14 +22,15 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace "com.codingwithtashi.simple_barcode_scanner"
+    namespace "com.amolg.flutterbarcodescanner" // Specify the namespace here
     compileSdkVersion 34
-    namespace "com.amolg.flutterbarcodescanner"
+
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 34
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
     lintOptions {
         disable 'InvalidPackage'
     }
